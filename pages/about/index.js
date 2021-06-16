@@ -1,20 +1,19 @@
 import Image from 'next/image'
-import styles from '../styles/Home.module.css'
-import HeadCommon from '../components/HeadCommon';
 import Link from 'next/link'
+import styles from '../../styles/Home.module.css'
+import HeadCommon from '../../components/HeadCommon';
 
-export default function Home() {
+export default function About() {
   return (
     <>
-    <HeadCommon pageTitle="Next.js Demo Home" />
+    <HeadCommon pageTitle="Next.js Demo About" />
     <div className={styles.container}>
-
       <main className={styles.main}>
         <h1 className={styles.title}>
           Genius <a href="https://geniuskouta.com">Kouta</a>
         </h1>
-        <Link href="/about">
-          <a>Go to about</a>
+        <Link href="/">
+          <a>Back to home</a>
         </Link>
       </main>
 

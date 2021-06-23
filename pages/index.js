@@ -16,6 +16,9 @@ export default function Home() {
         <Link href="/about">
           <a>Go to about</a>
         </Link>
+        <Link href="/todos">
+          <a>To dos</a>
+        </Link>
       </main>
 
       <footer className={styles.footer}>

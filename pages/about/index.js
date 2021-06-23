@@ -15,6 +15,9 @@ export default function About() {
         <Link href="/">
           <a>Back to home</a>
         </Link>
+        <Link href="/todos">
+          <a>To dos</a>
+        </Link>
       </main>
 
       <footer className={styles.footer}>
